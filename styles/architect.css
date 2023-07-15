@@ -4,6 +4,8 @@
 /* shared styles */
 * {
     font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 .section-title {
@@ -240,6 +242,10 @@ footer {
     .sponsors-img-container img {
         width: 165px;
     }
+
+    footer{
+        width: 300px;
+    }
 }
 
 
@@ -254,5 +260,9 @@ footer {
     .sponsors-img-container,
     .features {
         flex-direction: column;
+    }
+
+    footer{
+        width: 800px;
     }
 }
